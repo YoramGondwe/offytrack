@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "organizations",
+  "info": {
+    "name": "Organization"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "numberOfEmployees": {
+      "type": "integer"
+    },
+    "email": {
+      "type": "email"
+    },
+    "users": {
+      "via": "organization",
+      "plugin": "users-permissions",
+      "collection": "user"
+    }
+  }
+}

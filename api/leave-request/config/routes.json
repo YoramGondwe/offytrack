@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/leave-requests",
+      "handler": "leave-request.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/leave-requests/count",
+      "handler": "leave-request.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/leave-requests/:id",
+      "handler": "leave-request.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/leave-requests",
+      "handler": "leave-request.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/leave-requests/:id",
+      "handler": "leave-request.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/leave-requests/:id",
+      "handler": "leave-request.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/leave-types",
+      "handler": "leave-types.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/leave-types/count",
+      "handler": "leave-types.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/leave-types/:id",
+      "handler": "leave-types.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/leave-types",
+      "handler": "leave-types.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/leave-types/:id",
+      "handler": "leave-types.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/leave-types/:id",
+      "handler": "leave-types.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
