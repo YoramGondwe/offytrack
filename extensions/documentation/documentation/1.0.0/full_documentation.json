@@ -2,13 +2,13 @@
   "openapi": "3.0.0",
   "info": {
     "version": "1.0.0",
-    "title": "DOCUMENTATION",
+    "title": "OFFYTRACK DOCUMENTATION",
     "description": "",
     "termsOfService": "YOUR_TERMS_OF_SERVICE_URL",
     "contact": {
-      "name": "TEAM",
-      "email": "contact-email@something.io",
-      "url": "mywebsite.io"
+      "name": "YORAMg",
+      "email": "yoramgondwe3rd@gmail.com",
+      "url": "https://offytack.netlify.app"
     },
     "license": {
       "name": "Apache 2.0",
