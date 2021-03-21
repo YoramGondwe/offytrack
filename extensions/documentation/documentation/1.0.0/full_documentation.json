@@ -2791,10 +2791,9 @@
             "content": {
               "application/json": {
                 "schema": {
-                  "properties": {
-                    "foo": {
-                      "type": "string"
-                    }
+                  "properties": { 
+                    "identifier": {"type": "email@example.com"},
+                    "password": {"type":"string"}
                   }
                 }
               }
@@ -2842,9 +2841,8 @@
             "application/json": {
               "schema": {
                 "properties": {
-                  "foo": {
-                    "type": "string"
-                  }
+                  "identifier": {"type": "email@example.com"},
+                  "password": {"type":"string"}
                 }
               }
             }
